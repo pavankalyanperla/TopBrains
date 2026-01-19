@@ -3,7 +3,7 @@ using System.Text;
 
 class Program2
 {
-   public static void Main(string[]args)
+   public static void main(string[]args)
    {
       //   Console.WriteLine("Helo babe");
       Console.WriteLine("Enter the Product name: ");
