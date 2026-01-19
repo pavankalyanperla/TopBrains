@@ -118,7 +118,7 @@ namespace BankingApplication
 
     {
 
-        public static void Main(string[] args)
+        public static void main(string[] args)
 
         {
 
