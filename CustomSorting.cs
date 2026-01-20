@@ -23,7 +23,7 @@ public class StudentComparer : IComparer<Student>
 
 class Program3
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         List<Student> students = new List<Student>();
         Console.WriteLine("Enter the number of student that tou want to compare:");
