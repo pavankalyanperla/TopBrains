@@ -2,7 +2,7 @@ using System;
 
 class LuckyDraw
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         Console.WriteLine("Enter the number that you want to start from:");
         int start = int.Parse(Console.ReadLine());
