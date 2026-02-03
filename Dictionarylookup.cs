@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class DictionaryLookup
 {
-    static void Main(string[] args)
+    static void main(string[] args)
     {
         Dictionary<int,int> EmployeeSalary = new Dictionary<int, int>();
         List<int> EmployeeIDs = new List<int>();
