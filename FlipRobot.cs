@@ -62,8 +62,7 @@ public class RobotHazardAuditor
             Console.WriteLine("Enter Machinery State (Worn/Faulty/Critical):");
             string machineryState = Console.ReadLine();
 
-            double risk = robot.CalculateHazardRisk(armPrecision,workerDensity,achineryState
-            );
+            double risk = robot.CalculateHazardRisk(armPrecision,workerDensity,machineryState);
 
             Console.WriteLine($"Robot Hazard Risk Score: {risk}");
         }
