@@ -47,7 +47,7 @@ public class RobotHazardAuditor
         return HazardRisk;
     }
 
-    public static void Main(string[] args)
+    public static void main(string[] args)
     {
         try
         {
