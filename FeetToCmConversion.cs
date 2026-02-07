@@ -9,7 +9,7 @@ class Conversion
         return Math.Round(centimeter, 2, MidpointRounding.AwayFromZero);
     }
 
-    static void Main()
+    static void main()
     {
         Conversion con = new Conversion();
         Console.WriteLine("Enter the value in Foot:");
