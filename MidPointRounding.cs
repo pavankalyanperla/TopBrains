@@ -8,7 +8,7 @@ class MidPointRounding
 
         return Math.Round(Area, 2, MidpointRounding.AwayFromZero);;
     }
-    public static void Main()
+    public static void main()
     {
         MidPointRounding areaOfCircle = new MidPointRounding();
         Console.WriteLine("Enter the radius of your choice: ");
