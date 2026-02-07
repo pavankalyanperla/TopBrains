@@ -33,7 +33,7 @@ class Height
         }
     }
 
-    static void Main()
+    static void main()
     {
         Height height = new Height();
         Console.WriteLine("Enter you height in cm:");
