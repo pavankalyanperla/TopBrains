@@ -2,7 +2,7 @@ using System;
 
 class Swapping
 {
-    public static void Main(string[] args)
+    public static void main(string[] args)
     {
         Console.WriteLine("Enter the first number :");
         int num1 = int.Parse(Console.ReadLine());
