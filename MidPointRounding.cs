@@ -6,7 +6,7 @@ class MidPointRounding
     {
         double Area = Math.PI * radius * radius;
 
-        return Area;
+        return Math.Round(Area, 2, MidpointRounding.AwayFromZero);;
     }
     public static void Main()
     {
