@@ -49,7 +49,7 @@ class Programee
 {
     public static SortedDictionary<int, Bike> bikeDetails = new SortedDictionary<int, Bike>();
 
-    public static void Main(string[] args)
+    public static void main(string[] args)
     {
         BikeUtility utility = new BikeUtility(bikeDetails);
 
